@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LTG SHOP CENTER - Inicio</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link type="text/css" rel="stylesheet" href="css/ropa2.css">
+<link rel="stylesheet" href="css/lightbox.min.css">
+</head>
+<body background="https://cutewallpaper.org/21/white-background-gif/Dribbble-hexgif-by-Tim-Hykes.gif">
+    <div id = titulo>
+        <h1><strong>LTG SHOP CENTER</strong></h1>
+        </div>
+    <div id = "contenedordeimagenes";>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="men.html">Men</a></li>
+                <li><a href="women.html">Women</a></li>
+                <li><a href="kids.html">Kids</a></li>
+                <li><a href="sobre_nosotros.html">Sobre nosotros</a></li>
+                <li><a href="register_folder/register.html">Login</a></li>
+                
+            </ul>
+            <div id="cajarapida">Acceso Rapido</div>
+           <div>
+            <nav id="navegacion">
+                    <ul>
+                        <li><a  href="#contenedor1">Imagen1</a></li>
+                        <li><a href="#contenedor2">Imagen2</a></li>
+                        <li><a href="#contenedor3">Imagen3</a></li>
+                        <li><a href="#contenedor4">Imagen4</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+            <div>
+                <div id= "contenedor1">
+                    <nav id="navpers">
+                        <ul>
+                            <li><a href="#titulo">Inicio</a></li>
+                        </nav>
+                        <img id= "imgcont1" src="images/Chaquetanegra.webp" alt=""> 
+                        <div id="des1";><h2>Chaqueta Azul Marino para hombres $79</h2></div>
+                </div>
+                <div id= "contenedor2">
+                <nav id="navpers">
+                    <ul>
+                        <li><a href="#titulo">Inicio</a></li>
+                        <img id= "imgcont2" src="images/Remeragrisconcuello.jpg" alt=""> 
+                        <div id="des1";><h2>Remera con cuello para mujer $67 </h2></div>
+                    </nav>
+                </div>
+                <div id= "contenedor3">
+                <nav id="navpers">
+                    <ul>
+                        <li><a href="#titulo">Inicio</a></li>
+                        <img id= "imgcont2" src="images/kidsh1.webp" alt=""> 
+                        <div id="des1";><h2>Sweater Beige para niños $70 </h2></div>
+                    </nav>
+                </div>
+                <div id= "contenedor4">
+                <nav id="navpers">
+                    <ul>
+                        <li><a href="#titulo">Inicio</a></li>
+                        <img id= "imgcont2" src="images/sueterblanco.webp" alt=""> 
+                        <div id="des1";><h2>Sweater Blanco para hombres $85 </h2></div>
+                    </nav>
+                </div>
+            </div>
+            <div id="tema"><h2 src= "">Color del fondo</h2>
+                Color: <input type="color" id="color" onchange="f();">
+                </div>
+    </div>
+            <script>
+                function f()
+                {
+                    c = document.getElementById('color').value;
+                    document.getElementById('contenedordeimagenes').style.background=c;
+                }
+                </script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+</body>
+</html>
